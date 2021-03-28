@@ -1,0 +1,37 @@
+.click_me {
+  border: 1px solid #b7b7c9;
+  height: 200px;
+  border-radius: 1px;
+  opacity: 1;
+  padding-top: 10px;
+  font-size: 25px;
+  color: #4e4c4c;
+  box-shadow: 1px 1px 8px 0px #a2a2a9;
+}
+.click_me:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-color: #4f4d49;
+}
+.click_me_row {
+  border: 1px solid #b7b7c9;
+  height: 75px;
+  border-radius: 1px;
+  opacity: 1;
+  padding-top: 15px;
+  font-size: 25px;
+  color: #4e4c4c;
+  box-shadow: 1px 1px 8px 0px #a2a2a9;
+}
+.click_me_row:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-color: #4f4d49;
+}
+.small-txt-below {
+  font-size: 18px;
+  margin-top: 40px;
+  color: #997a4d;
+}

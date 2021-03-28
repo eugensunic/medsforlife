@@ -1,0 +1,134 @@
+.card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: #f7f7f9;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.card-header-tabs {
+  margin-right: -0.625rem;
+  margin-bottom: -0.75rem;
+  margin-left: -0.625rem;
+  border-bottom: 0;
+}
+.card-header-pills {
+  margin-right: -0.625rem;
+  margin-left: -0.625rem;
+}
+.card-primary {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+.card-primary .card-footer,
+.card-primary .card-header {
+  background-color: transparent;
+}
+.card-success {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+.card-success .card-footer,
+.card-success .card-header {
+  background-color: transparent;
+}
+.card-info {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+.card-info .card-footer,
+.card-info .card-header {
+  background-color: transparent;
+}
+.card-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+.card-warning .card-footer,
+.card-warning .card-header {
+  background-color: transparent;
+}
+.card-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+.card-danger .card-footer,
+.card-danger .card-header {
+  background-color: transparent;
+}
+.card-outline-primary {
+  background-color: transparent;
+  border-color: #0275d8;
+}
+.card-outline-secondary {
+  background-color: transparent;
+  border-color: #ccc;
+}
+.card-outline-info {
+  background-color: transparent;
+  border-color: #5bc0de;
+}
+.card-outline-success {
+  background-color: transparent;
+  border-color: #5cb85c;
+}
+.card-outline-warning {
+  background-color: transparent;
+  border-color: #f0ad4e;
+}
+.card-outline-danger {
+  background-color: transparent;
+  border-color: #d9534f;
+}
+.card-inverse {
+  color: rgba(255, 255, 255, 0.65);
+}
+.card-inverse .card-footer,
+.card-inverse .card-header {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.card-inverse .card-blockquote,
+.card-inverse .card-footer,
+.card-inverse .card-header,
+.card-inverse .card-title {
+  color: #fff;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}

@@ -1,0 +1,28 @@
+.nav_center {
+  text-align: center;
+  width: auto;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+.nav_element {
+  border: 1px solid #dbdbe2;
+  margin-right: 5px;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 17px;
+  display: inline-block;
+  background-color: #f6f6f6;
+  box-shadow: 1px 1px 1px #d2d2d2;
+  padding: 6px;
+  margin-bottom: 8px;
+}
+.nav_element:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.footer-inner-content {
+  margin-right: 50px;
+}

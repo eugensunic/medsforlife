@@ -1,0 +1,74 @@
+.about_first {
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #e3e3e3;
+  box-shadow: 3px 4px 3px 0px #5c5c5c;
+}
+.about_second {
+  top: -10px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #ffdda5;
+  margin-top: 5px;
+  box-shadow: 3px 4px 3px 0px #5c5c5c;
+}
+.about_third {
+  top: -10px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #d3d3dd;
+  margin-top: 2px;
+  box-shadow: 3px 4px 3px 0px #5c5c5c;
+}
+.mail_address {
+  color: #b44949;
+}
+.about_image {
+  width: 250px;
+  height: 335px;
+}
+.linking_app {
+  font-size: 22px;
+  color: #97999c;
+}
+.linking_app:hover {
+  color: #97999c !important;
+}
+.change_cursor {
+  cursor: pointer;
+}
+.change_cursor:hover {
+  opacity: 0.7;
+}
+.footer_newstats {
+  margin-top: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  border-radius: 3px;
+}
+.middle_newstats {
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.forums_active {
+  font-size: 18px;
+}
+.forums_active:hover {
+  text-decoration: underline !important;
+}

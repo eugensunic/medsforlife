@@ -1,0 +1,30 @@
+.social_width {
+  width: 38px;
+  margin-left: 3px;
+  border-radius: 45px;
+}
+.social_width:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.social_wrap {
+  text-align: left;
+  margin-top: 15px;
+}
+.hide_social,
+.show_social {
+  border: 1px solid #d9d4d4;
+  float: left;
+  position: relative;
+  top: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-left: 4px;
+  padding-right: 5px;
+  background: white;
+}
+.hide_social:hover,
+.show_social:hover {
+  background-color: #c6c6c6;
+  cursor: pointer;
+}

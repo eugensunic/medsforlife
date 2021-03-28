@@ -1,0 +1,234 @@
+.move_first_num_bar {
+  position: relative;
+  left: -30px;
+  margin-left: 25px;
+}
+.post_header {
+  display: inline-block;
+  margin: 10px;
+  float: left;
+}
+.post_headersecond {
+  clear: left;
+  float: left;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.post_headervalue {
+  display: inline;
+  padding-right: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.url_value {
+  font-size: 11px;
+  color: #337ab7;
+}
+.post_element {
+  display: inline;
+  font-size: 11px;
+}
+.post_elementheaderbar {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4f4f52;
+  padding-right: 2px;
+  padding-left: 8px;
+}
+.post_elementheaderbar_tag_original {
+  display: inline-block;
+  border: 1px solid #84838e;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.post_elementheaderbar_tag_original:hover {
+  background-color: #e9f0cd;
+  cursor: pointer;
+}
+.yourdata:hover {
+  background-color: green;
+}
+
+/* criteria small section begin */
+.criteria_heading {
+  font-size: 17px;
+  vertical-align: middle;
+}
+.criteria_value {
+  font-size: 17px;
+  color: #544e4e;
+  font-weight: bold;
+  vertical-align: middle;
+  position: relative;
+  top: 1px;
+}
+/* criteria small section end */
+
+/*-----------------------*/
+.post_main {
+  clear: left;
+  border: 1px solid #939393;
+  border-radius: 2px;
+  word-wrap: break-word;
+  padding: 3px;
+  box-shadow: 0px 0px 7px 0px #d3d0d0;
+  background-color: #fffefe;
+}
+.post_number {
+  float: left;
+  font-size: 14px;
+  border: 1px solid #b4b4b4;
+  border-radius: 2px;
+  margin-right: 5px;
+  color: #373535;
+  background-color: white;
+}
+/*------------------------*/
+.post_tag {
+  border: 0px solid grey;
+  text-align: left;
+  display: inline;
+}
+.post_tagvalue_drug {
+  display: inline;
+  color: #28348a;
+  font-size: 15px;
+}
+.post_tagvalue_durdosdaily {
+  display: inline;
+  color: #b93b42;
+  font-size: 15px;
+}
+.post_tagvalue_hp {
+  display: inline;
+  color: grey;
+  font-size: 13px;
+}
+.post_tagvalue_rest {
+  display: inline;
+  color: #a95e29;
+  font-size: 14px;
+  border: 1px solid #d7d3d3;
+  margin-left: 1px;
+  border-radius: 2px;
+}
+.post_tagtoggle {
+  float: right;
+  color: #5b5353;
+}
+.post_tagtoggle:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/*------------------------*/
+.unit_div {
+  margin-bottom: 8px;
+}
+.unit_divrow {
+  margin-right: 0px;
+}
+
+/*------------------------*/
+.headerbar {
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 2px;
+  background-color: white;
+}
+.bar {
+  padding: 4px;
+  text-align: center;
+  margin-top: 50px;
+}
+.bar_num {
+  border: 1px solid #a49b9b;
+  border-radius: 2px;
+  padding: 10px 14px;
+  font-weight: 670;
+  display: inline-block;
+  margin-right: 4px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 1px 1px 1px #999898;
+}
+.bar_num:hover {
+  background-color: #fce38a;
+}
+.filter_icon {
+  float: right;
+  width: 26px;
+  height: 26px;
+}
+.header_border_tag {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-right: 1px;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.header_border_tag:hover {
+  background-color: #dfe8ed;
+  cursor: pointer;
+}
+.number_below_main_header {
+  float: left;
+  color: #989292;
+  background: #ededed;
+  border-radius: 1px;
+  width: auto;
+  font-size: 18px;
+  margin-right: 10p;
+}
+.post_footer_div {
+  border: 1px solid #d7d7d7;
+  padding-left: 3px;
+  margin-top: 1px;
+}
+
+.selected_bar {
+  border: 1px solid #a49b9b;
+  border-radius: 2px;
+  padding: 10px 14px;
+  font-weight: 670;
+  display: inline-block;
+  margin-right: 4px;
+  cursor: pointer;
+  background-color: #fce38a;
+  pointer-events: none;
+}
+/*-----------------------------------------------------
+Doctor post
+-----------------------------------------------------*/
+.post_main_doctor {
+  clear: left;
+  border: 1px solid #6c9cd3;
+  border-radius: 2px;
+  word-wrap: break-word;
+  padding: 3px;
+  box-shadow: 0px 0px 7px 0px #d3d0d0;
+  background-color: #fffefe;
+}
+.dr_tought {
+  float: left;
+}
+/*-----------------------------------------------------
+Pharma post
+-----------------------------------------------------*/
+.post_main_pharma {
+  clear: left;
+  border: 1px solid #63ae4b;
+  border-radius: 2px;
+  word-wrap: break-word;
+  padding: 3px;
+  box-shadow: 0px 0px 7px 0px #d3d0d0;
+  background-color: #fffefe;
+}
+.checkbox_holder_about {
+  position: relative;
+  top: 5px;
+}

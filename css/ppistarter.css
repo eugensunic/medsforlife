@@ -1,0 +1,72 @@
+.overwrite_h4 {
+  color: black !important;
+}
+.general_section_starter {
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #ebebf4;
+}
+.my_comments_section_starter {
+  margin-top: 20px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #c0e6ba;
+}
+.output_section_starter {
+  margin-top: 20px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #c3d9ea;
+}
+.rest_section_starter {
+  margin-top: 20px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #ffd589;
+}
+.natural_section_starter {
+  margin-top: 20px;
+  border: 1px solid #e1dddd;
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #aee2af;
+}
+.other_drugs_table {
+  border: 1px solid #4f4a4a;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}
+td.matrix {
+  padding: 3px !important;
+  border: 1px solid #6b6868;
+  word-wrap: break-word;
+}
+.meds_names {
+  color: #42434b;
+  font-weight: 600;
+}
+.not_exists {
+  color: #383b93;
+  font-weight: 600;
+}
+.exists {
+  font-weight: 600;
+  color: #b75858;
+}
+.go_right {
+  float: right;
+}
+.go_left {
+  float: left;
+}
+.diagonal {
+}

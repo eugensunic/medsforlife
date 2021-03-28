@@ -1,0 +1,60 @@
+
+
+AFTER REALEASE:
+----------------
+
+- fix years, for example someone enters 147 and selects years you should disable years because that's too much 
+interval should be 50 years
+- add impresum page 
+- assign drug to its generic drug,
+- add if otc or not, think where you should put this assocication
+- fix red mark which appears, basicaly it should check if all of these fields are valid
+
+
+RELEASE COMMENTS
+-----------------
+- delete database
+- add some footer
+- need to fix criteria value with a prop instead of a setstatefix
+
+
+  IMPORTANT
+  ---------
+  react dynamic routing: https://stackoverflow.com/questions/47245999/how-to-achieve-dynamic-routing-in-react-router-4
+  - test everything before proceeding to final page
+
+  TODO
+  ----
+   2. document.body.style.pointerEvents='none' immediately after click
+   4. notify if no internet connection on final green submit
+
+  REFACTORING
+  -----------
+
+  - refactor on bar functions and async functions, see comments
+  - ES6 everything what you can, functions, this, use lexical scope, get rid of returns, spaces between curly brackets, spaces, don't use
+  beautify from abramov and fiddle js react...,
+  - binding up not in middle of code but in constructor ES 6, abandon bind completely
+  - var===false to !var, var===true to var
+
+
+
+  ADDITIONAL LINKS
+  ----------------
+  COLOURS: https://uigradients.com/#Clouds
+
+
+  DATABASE
+  --------
+
+  - last data is 1207 in post id, data id, everything below that is fixed as from 31.12.2017.
+
+
+  NOTES
+  -----
+   - write params for testing in this way: url?param_0=0&param_1=20
+   - always delete branch when you finished with it (when merged to master)
+   - in post php data (not the main one, all the other ones) put order by asc and put distinct id, because sometimes you get doubles and
+   - things get messed up when associating on frontend.
+
+  brand-nexium data, post, rest all id's match perfectly
